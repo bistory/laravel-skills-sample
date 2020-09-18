@@ -55,3 +55,17 @@ Les cases autorisées pour se rentre de A à B doivent avoir l'attribut ``is_all
 Il n'est possible de se déplacer que verticalement ou horizontalement, pas de diagonal possible.
 
 Nous serons attentif de la logique mise en place pour cet algorithme et pourrons faire abstraction de sa performance.  
+
+# Installation
+
+Exécuter :
+
+``bash vessel init``
+
+Puis exécuter :
+
+``./vessel start``
+
+Lancer les tests :
+
+``./vessel test``
