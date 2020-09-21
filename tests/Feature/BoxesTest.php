@@ -167,7 +167,7 @@ class BoxesTest extends TestCase
         $maze = Box::find(1);
         Passport::actingAs($user, ['api']);
 
-        $response = $this->deleteJson(route('mazes.boxes.update', [
+        $response = $this->deleteJson(route('mazes.boxes.destroy', [
             'maze' => 1,
             'box' => 1,
         ]));
